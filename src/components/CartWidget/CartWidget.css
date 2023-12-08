@@ -1,0 +1,23 @@
+.container-fluid {
+    justify-content: center;
+
+}
+
+.contenedor-texto {
+    text-align: center;
+}
+
+.texto-ejemplo {
+    font-size: 50px;
+    color: #0e7205;
+}
+
+.carrito {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 380px;
+    transform: scale(1.4);
+
+}

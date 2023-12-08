@@ -1,0 +1,133 @@
+.order {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.mb-3 {
+    margin-bottom: 10px;
+}
+
+.form-select {
+    margin: 10px 0;
+}
+
+.btn-buy {
+    background-color: #23aa08;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn-buy:hover {
+    background-color: #0f790f;
+}
+
+nav {
+    margin-bottom: 50px;
+
+}
+
+footer {
+    margin-top: 300px;
+
+}
+
+.fin {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.fin h1 {
+    font-size: 24px;
+}
+
+.fin button {
+    background-color: #4CAF50;
+    width: 50%;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.fin button:hover {
+    background-color: #255c28;
+
+}
+
+.btn-buy[disabled] {
+    background-color: #ccc;
+
+    cursor: not-allowed;
+}
+
+.btn-buy.active {
+    background-color: #23aa08;
+
+}
+
+.btn-buy.active:hover {
+    background-color: #0f790f;
+
+}
+
+.volver-tienda-btn {
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(28, 136, 52);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+
+.volver-tienda-btn:hover {
+    background-color: rgb(22, 108, 42);
+
+}
