@@ -5,7 +5,7 @@ import './navBar.css';
 
 const arraydeCategorias = [
     "Niños",
-    "Jabón Adultos",
+    "Adultos",
     
 ];
 

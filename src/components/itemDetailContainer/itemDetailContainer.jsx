@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        const productRef = doc(db, "products", id)
+        const productRef = doc(db, "products","AIzaSyBV2nlLKkCZUTFb7voayiCuvLJcmpY6fTk" )
         getDoc(productRef)
             .then(snapshot => {
                 if (snapshot.exists()) {

@@ -1,15 +1,20 @@
-import { initializeApp } from "firebase/app"
-import { getFirestore } from 'firebase/firestore'
+import {initializeApp} from "firebase/app"
 
-// Your web app's Firebase configuration
+import {getFirestore} from 'firebase/firestore'
+
+ 
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCYL7Un5JjpjraYQfmuwUx7-ww8zNeYcEI",
-    authDomain: "mitiendaonline-190c8.firebaseapp.com",
-    projectId: "mitiendaonline-190c8",
-    storageBucket: "mitiendaonline-190c8.appspot.com",
-    messagingSenderId: "1058532316054",
-    appId: "1:1058532316054:web:78f11905647d21dc0603b7"
+  apiKey: "AIzaSyBV2nlLKkCZUTFb7voayiCuvLJcmpY6fTk",
+  authDomain: "farma-educativa-app.firebaseapp.com",
+  projectId: "farma-educativa-app",
+  storageBucket: "farma-educativa-app.appspot.com",
+  messagingSenderId: "236608142252",
+  appId: "1:236608142252:web:46d62b85824c38c4df5809"
 };
 
+ 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 export const db = getFirestore(app);
