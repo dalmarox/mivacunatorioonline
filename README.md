@@ -1,9 +1,6 @@
 Proyecto final de REACT en CoderHouse
 
-# TiendaOnline - Plataforma de Productos de Limpieza Online
-
-TiendaOnline es una plataforma en línea que ofrece una amplia gama de productos de limpieza para el hogar y la oficina. Facilitamos a nuestros clientes la compra de productos de alta calidad desde la comodidad de sus hogares.
-
+# TiendaOnline de venta de vacunas en una farmacia. Una población sana es una población que previene enfermedades. Este es un servicio farmacéutico que brindamos a nuestros pacientes.
 
 ## Librerias y herramientas usadas en el proyecto:
 -React + Vite
